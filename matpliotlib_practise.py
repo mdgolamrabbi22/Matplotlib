@@ -30,7 +30,11 @@ plt.xlabel("Year", fontsize="20",
 plt.ylabel("Sales Report", fontsize="20",
            family="Arial",
            color="#1544ed")
-
+plt.grid(
+    color="lightgray",
+    linestyle="dashed",
+    linewidth=2,
+)
 plt.xticks(year)
 plt.subplots_adjust(left=0.14, bottom=0.175)
 
